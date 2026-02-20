@@ -18,7 +18,9 @@ while True:
     comp_score = int(input("Computer score: "))
 
     game_results = (f"Round {rounds_played}: User Points: {user_points} | "
-                       f"Computer Points {comp_point}, {winner} wins (15 | 0)")
+                       f"Computer Points {comp_point}, {winner} wins "
+                    f"({user_score} | {comp_score})")
+
 
     game_history.append(game_results)
 
